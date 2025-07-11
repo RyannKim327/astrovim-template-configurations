@@ -39,7 +39,15 @@ return {
 				},
 				{
 					"    Never base on the quantity    ",
-					"     Its all about the quality   ",
+					"     Its all about the quality    ",
+				},
+				{
+					"   Never look for me for nothing  ",
+					"      And I have my reasons       ",
+				},
+				{
+					"   People are meant to one thing  ",
+					"   To not understand one another  ",
 				},
 				{
 					"   There's always a secret path   ",
