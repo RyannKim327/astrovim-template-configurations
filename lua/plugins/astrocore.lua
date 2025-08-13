@@ -37,7 +37,7 @@ return {
 				shiftwidth = 2,
 				tabstop = 2,
 				softtabstop = 2,
-				expandtab = true,
+				expandtab = false,
 				scrolloff = 10,
 			},
 			g = { -- vim.g.<key>
