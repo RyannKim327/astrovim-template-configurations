@@ -9,7 +9,7 @@ return {
 		wk.add {
 			-- ["<leader>sc"] = { ":Silicon<CR>", "Snapshot Code" },
 			{
-				"<leader>sc",
+				"<leader>ss",
 				":Silicon<CR>",
 				desc = "Snapshot code",
 				mode = "v",
