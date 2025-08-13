@@ -1,36 +1,40 @@
 local themes = {
 	"bamboo",
-	"sea",
-	"peach",
-	"grape",
+	"default",
 	"dusk",
+	"grape",
+	"peach",
+	"sea",
 	"summer",
 }
-
-local name = math.floor(math.random(1, #themes))
 
 return {
 	"mistricky/codesnap.nvim",
 	init = function()
 		local wk = require "which-key"
-		name = math.floor(math.random(1, #themes))
 		wk.add {
 			{
-				"<leader>sc",
+				"cc",
 				":CodeSnap<CR>",
 				desc = "Snapshot Code",
+				mode = "v",
+			},
+			{
+				"<leader>cs",
+				":CodeSnapSave<CR>",
+				desc = "Snapshot Code Save",
 				mode = "v",
 			},
 		}
 	end,
 
 	opts = {
-		bg_theme = themes[name],
-		bg_x_padding = 15,
-		bg_y_padding = 15,
+		bg_theme = themes[math.floor(math.random(0, #themes) + 1)],
 		watermark = "MPOP.2016",
+		watermark_font_family = "CaskaydiaCove Nerd Font Mono",
 		has_line_number = true,
 		has_breadcrumbs = true,
+		save_path = "~/Pictures/Snapshot",
 	},
 	build = "make",
 }
