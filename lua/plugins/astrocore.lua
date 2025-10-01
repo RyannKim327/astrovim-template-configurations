@@ -32,7 +32,7 @@ return {
 				spell = true, -- sets vim.opt.spell
 				signcolumn = "auto", -- sets vim.opt.signcolumn to auto
 				wrap = false, -- sets vim.opt.wrap ->
-				mouse = "", -- Mouse deactivation
+				-- mouse = "", -- Mouse deactivation
 				guifont = "CaskaydiaCove Nerd Font Mono",
 				shiftwidth = 2,
 				tabstop = 2,
