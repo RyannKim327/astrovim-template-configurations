@@ -25,9 +25,10 @@ return {
 	end,
 
 	opts = {
-		bg_theme = themes[name],
-		bg_x_padding = 15,
-		bg_y_padding = 15,
+		font = "CaskaydiaCove Nerd Font Mono",
+		bg_theme = themes[3],
+		-- bg_x_padding = 25,
+		-- bg_y_padding = 25,
 		watermark = "MPOP.2016",
 		has_line_number = true,
 		has_breadcrumbs = true,

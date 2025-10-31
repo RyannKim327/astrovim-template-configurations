@@ -4,6 +4,7 @@ return {
 	"michaelrommel/nvim-silicon",
 	lazy = true,
 	cmd = "Silicon",
+	main = "nvim-silicon",
 	init = function()
 		local wk = require "which-key"
 		wk.add {
@@ -18,6 +19,7 @@ return {
 	end,
 	config = function()
 		require("silicon").setup {
+			debug = false,
 			font = "CaskaydiaCove Nerd Font Mono=34;Noto Color Emoji=34",
 			to_clipboard = true,
 			window_title = function()
