@@ -26,41 +26,41 @@ return {
 			-- 34 characters in total
 			local texts = {
 				{
-					"       I may know something       ",
-					"        But not everything        ",
+					"       I may know something        ",
+					"        But not everything         ",
 				},
 				{
-					"  Programming isn't about syntax  ",
-					"    It is also about the logic    ",
+					"  Programming isn't about syntax   ",
+					"    It is also about the logic     ",
 				},
 				{
-					"      People won't understand     ",
-					"       what you really doing      ",
+					"      People won't understand      ",
+					"       what you really doing       ",
 				},
 				{
-					"    Never base on the quantity    ",
-					"     Its all about the quality    ",
+					"    Never base on the quantity     ",
+					"     Its all about the quality     ",
 				},
 				{
-					"   Never look for me for nothing  ",
-					"      And I have my reasons       ",
+					"   Never look for me for nothing   ",
+					"      And I have my reasons        ",
 				},
 				{
-					"   People are meant to one thing  ",
-					"   To not understand one another  ",
+					"   People are meant to one thing   ",
+					"   To not understand one another   ",
 				},
 				{
 					"   There's always a secret path   ",
-					"  We'd just discovered in random  ",
+					"  We'd just discovered in random   ",
 				},
 			}
 			local x = math.floor(math.random(1, #texts))
 			opts.section.header.val = {
-				"░░░░░░░░░█▄▒▄█▒█▀▄░▄▀▄▒█▀▄░░░░░░░░",
-				"░░░░░░░░░█▒▀▒█░█▀▒░▀▄▀░█▀▒░░░░░░░░",
+				"░░░░░░░░░█▄▒▄█▒█▀▄░▄▀▀▄▒█▀▄░░░░░░░░",
+				"░░░░░░░░░█▒▀▒█░█▀▒░▀▄▄▀░█▀▒░░░░░░░░",
 				" ",
-				"▒█▀▄▒██▀░█▒█▒██▀▒█▀▄░▄▀▀▒██▀░░░█░█",
-				"░█▀▄░█▄▄░▀▄▀░█▄▄░█▀▄▒▄██░█▄▄▒░░█░█",
+				"▒█▀▄▒██▀░█▒█▒██▀▒█▀▄░▄▀▀▒██▀░░░█░█░",
+				"░█▀▄░█▄▄░▀▄▀░█▄▄░█▀▄▒▄██░█▄▄▒░░█░█░",
 				" ",
 				"  https://github.com/RyannKim327",
 				" ",
