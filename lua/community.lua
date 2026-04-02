@@ -15,6 +15,7 @@ return {
 	{ import = "astrocommunity.pack.go" },
 	{ import = "astrocommunity.pack.typescript" },
 	{ import = "astrocommunity.pack.tailwindcss" },
+	{ import = "astrocommunity.pack.svelte" },
 	{ import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
 	-- { import = "astrocommunity.pack.cs" },
 	-- { import = "astrocommunity.pack.java" },

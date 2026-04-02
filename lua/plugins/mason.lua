@@ -61,6 +61,7 @@ return {
 				"javascript",
 				"typescript",
 				"rust",
+				"svelte",
 				"tailwindcss",
 				-- add more arguments for adding more debuggers
 			})

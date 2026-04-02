@@ -38,6 +38,7 @@ return {
 					"typescriptreact",
 					"rust",
 					"python",
+					"svelte",
 					"tailwindcss",
 				},
 				ignore_filetypes = { -- disable format on save for specified filetypes
