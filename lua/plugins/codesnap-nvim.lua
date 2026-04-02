@@ -26,7 +26,7 @@ return {
 
 	opts = {
 		font = "CaskaydiaCove Nerd Font Mono",
-		bg_theme = themes[3],
+		bg_theme = themes[2],
 		-- bg_x_padding = 25,
 		-- bg_y_padding = 25,
 		watermark = "MPOP.2016",
