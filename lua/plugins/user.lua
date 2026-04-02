@@ -3,6 +3,39 @@
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- Here are some examples:
 
+local texts = {
+	{
+		"       I may know something        ",
+		"        But not everything         ",
+	},
+	{
+		"  Programming isn't about syntax   ",
+		"    It is also about the logic     ",
+	},
+	{
+		"      People won't understand      ",
+		"       what you really doing       ",
+	},
+	{
+		"    Never base on the quantity     ",
+		"     Its all about the quality     ",
+	},
+	{
+		"   Never look for me for nothing   ",
+		"      And I have my reasons        ",
+	},
+	{
+		"   People are meant to one thing   ",
+		"   To not understand one another   ",
+	},
+	{
+		"   There's always a secret path   ",
+		"  We'd just discovered in random   ",
+	},
+}
+
+local x = math.floor(math.random(1, #texts))
+
 ---@type LazySpec
 return {
 	-- == Examples of Adding Plugins ==
@@ -12,62 +45,6 @@ return {
 		event = "BufRead",
 		config = function() require("lsp_signature").setup() end,
 	},
-
-	-- == Examples of Overriding Plugins ==
-	-- customize alpha options
-	-- {
-	-- 	"folke/snacks.nvim",
-	-- 	opts = function(_, opts)
-	-- 		-- customize the dashboard header
-	-- 		texts = {
-	-- 	{
-	-- 		"       I may know something        ",
-	-- 		"        But not everything         ",
-	-- 	},
-	-- 	{
-	-- 		"  Programming isn't about syntax   ",
-	-- 		"    It is also about the logic     ",
-	-- 	},
-	-- 	{
-	-- 		"      People won't understand      ",
-	-- 		"       what you really doing       ",
-	-- 	},
-	-- 	{
-	-- 		"    Never base on the quantity     ",
-	-- 		"     Its all about the quality     ",
-	-- 	},
-	-- 	{
-	-- 		"   Never look for me for nothing   ",
-	-- 		"      And I have my reasons        ",
-	-- 	},
-	-- 	{
-	-- 		"   People are meant to one thing   ",
-	-- 		"   To not understand one another   ",
-	-- 	},
-	-- 	{
-	-- 		"   There's always a secret path   ",
-	-- 		"  We'd just discovered in random   ",
-	-- 	},
-	-- },
-	--
-	-- x = math.floor(math.random(1, #texts)),
-	--
-	-- 		-- 34 characters in total
-	-- 		opts.section.header.val = {
-	-- 			"░░░░░░░░░█▄▒▄█▒█▀▄░▄▀▀▄▒█▀▄░░░░░░░░",
-	-- 			"░░░░░░░░░█▒▀▒█░█▀▒░▀▄▄▀░█▀▒░░░░░░░░",
-	-- 			" ",
-	-- 			"▒█▀▄▒██▀░█▒█▒██▀▒█▀▄░▄▀▀▒██▀░░░█░█░",
-	-- 			"░█▀▄░█▄▄░▀▄▀░█▄▄░█▀▄▒▄██░█▄▄▒░░█░█░",
-	-- 			" ",
-	-- 			"  https://github.com/RyannKim327",
-	-- 			" ",
-	-- 			texts[x][1],
-	-- 			texts[x][2],
-	-- 		}
-	-- 		return opts
-	-- 	end,
-	-- },
 
 	{
 		"folke/snacks.nvim",
@@ -83,6 +60,8 @@ return {
 						" ",
 						"  https://github.com/RyannKim327",
 						" ",
+						texts[x][1],
+						texts[x][2],
 					}, "\n"),
 				},
 			},
