@@ -71,6 +71,9 @@ return {
 				["<Leader>b"] = { desc = "Buffers" },
 				-- quick save
 				["<Leader>w"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+
+				["<Leader>tt"] = { "<cmd>2ToggleTerm direction=float<cr>", desc = "2 Terminal" },
+				["<C-'>"] = { "<cmd>ToggleTerm direction=float<cr>", desc = "Terminal float" },
 			},
 			t = {
 				-- setting a mapping to false will disable it
