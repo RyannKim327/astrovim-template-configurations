@@ -22,6 +22,7 @@ return {
 				"jsonls",
 				"ltex",
 				"rust_analyzer",
+				"php",
 				"svelte",
 				"pyright",
 				"ruff",
@@ -61,6 +62,7 @@ return {
 				"javascript",
 				"typescript",
 				"rust",
+				"php",
 				"svelte",
 				"tailwindcss",
 				-- add more arguments for adding more debuggers
