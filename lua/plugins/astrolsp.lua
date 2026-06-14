@@ -25,7 +25,7 @@ return {
 				allow_filetypes = { -- enable format on save for specified filetypes only
 					"go",
 					"html",
-					"blade.php",
+					"blade",
 					"php",
 					"css",
 					"hyprls",
@@ -82,7 +82,7 @@ return {
 					"typescriptreact",
 					"php",
 					"svelte",
-					"blade.php",
+					"blade",
 					"python",
 					"rust",
 				},
