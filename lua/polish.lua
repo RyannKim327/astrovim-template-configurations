@@ -6,9 +6,15 @@
 
 -- Set up custom filetypes
 
+-- Register the .dbml extensions
+vim.filetype.add {
+  extension = {
+    dbml = "dbml",
+  },
+}
 return {
-	"notify",
-	lazy = false,
+  "notify",
+  lazy = false,
 }
 
 -- require("notify").setup {

@@ -1,5 +1,5 @@
 <h3 align="center">AstroNvim Template [Modified]</h3>
-<h4 align="center"> MPOP Reverse II with AstroVIM and itsmenewbie03</h4>
+<h4 align="center"> Master Piece of Paper with AstroVIM and itsmenewbie03</h4>
 
 ---
 
